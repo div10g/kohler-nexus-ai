@@ -34,7 +34,9 @@ echo GEMINI_API_KEY="your_api_key_here" > .env
 
 ### 5.Generate Knowledge Base Files (Optional / Initial Setup):
 If running for the first time or building vector stores:
+
 python generate_enterprise_kb.py
+
 python create_pdfs.py
 
 ### 6. Launch the Functional Prototype:
