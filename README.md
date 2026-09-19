@@ -29,15 +29,15 @@ source venv/bin/activate
 ### 3. Install Dependencies:
 pip install -r requirements.txt
 
-## 4. Set up environment key in .env file:
+### 4. Set up environment key in .env file:
 echo GEMINI_API_KEY="your_api_key_here" > .env
 
-## 5.Generate Knowledge Base Files (Optional / Initial Setup):
+### 5.Generate Knowledge Base Files (Optional / Initial Setup):
 If running for the first time or building vector stores:
 python generate_enterprise_kb.py
 python create_pdfs.py
 
-## 6. Launch the Functional Prototype:
+### 6. Launch the Functional Prototype:
 streamlit run app.py
 
 
